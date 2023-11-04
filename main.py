@@ -56,10 +56,10 @@ class Patient(Healthcare):
         )
         return patient_dict
 """Создание объектов"""
-doctor_1 = Doctor("Иванов И.И", 1986, "муж", "Кардиолог")
-doctor_2 = Doctor("Иванова И.И", 1992, "жен", "Медсестра")
-patient_1 = Patient("Ирина", 1954, "жен", "Воспаления миокарда")
-patient_2 = Patient("Сергей", 1948, "муж", "Инфаркт")
+doctor_1 = Doctor("Ivan", 1986, "man", "Cardiologist")
+doctor_2 = Doctor("Lisa", 1992, "woman", "Nurse")
+patient_1 = Patient("Irina", 1954, "man", "Myocardial inflammation")
+patient_2 = Patient("Alex", 1948, "woman", "Heart attack")
 """Преобразование объектов в словари"""
 dict_Healthcare = {
     "doctor": [doctor_1.to_dict(), doctor_2.to_dict()],
