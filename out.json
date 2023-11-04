@@ -17,13 +17,13 @@
         {
             "name": "Irina",
             "year": 1954,
-            "gender": "man",
+            "gender": "woman",
             "diagnosis": "Myocardial inflammation"
         },
         {
             "name": "Alex",
             "year": 1948,
-            "gender": "woman",
+            "gender": "man",
             "diagnosis": "Heart attack"
         }
     ]
