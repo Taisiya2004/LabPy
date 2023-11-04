@@ -1,0 +1,30 @@
+{
+    "doctor": [
+        {
+            "name": "Ivan",
+            "year": 1986,
+            "gender": "man",
+            "speciality": "Cardiologist"
+        },
+        {
+            "name": "Lisa",
+            "year": 1992,
+            "gender": "woman",
+            "speciality": "Nurse"
+        }
+    ],
+    "patient": [
+        {
+            "name": "Irina",
+            "year": 1954,
+            "gender": "woman",
+            "diagnosis": "Myocardial inflammation"
+        },
+        {
+            "name": "Alex",
+            "year": 1948,
+            "gender": "man",
+            "diagnosis": "Heart attack"
+        }
+    ]
+}
