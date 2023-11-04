@@ -58,8 +58,8 @@ class Patient(Healthcare):
 """Создание объектов"""
 doctor_1 = Doctor("Ivan", 1986, "man", "Cardiologist")
 doctor_2 = Doctor("Lisa", 1992, "woman", "Nurse")
-patient_1 = Patient("Irina", 1954, "man", "Myocardial inflammation")
-patient_2 = Patient("Alex", 1948, "woman", "Heart attack")
+patient_1 = Patient("Irina", 1954, "woman", "Myocardial inflammation")
+patient_2 = Patient("Alex", 1948, "man", "Heart attack")
 """Преобразование объектов в словари"""
 dict_Healthcare = {
     "doctor": [doctor_1.to_dict(), doctor_2.to_dict()],
@@ -71,7 +71,7 @@ with open('out.json', 'w') as json_file:
 
 try:
     """чтение файла input.json"""
-    with open('input.json', 'r', encoding='utf-8') as input_file:
+    with open('data_from_json.json', 'r', encoding='utf-8') as input_file:
         for line in input_file:
             print(line)
 except FileNotFoundError:
