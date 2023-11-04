@@ -1,30 +1,30 @@
 {
     "doctor": [
         {
-            "name": "\u0418\u0432\u0430\u043d\u043e\u0432 \u0418.\u0418",
+            "name": "Ivan",
             "year": 1986,
-            "gender": "\u043c\u0443\u0436",
-            "speciality": "\u041a\u0430\u0440\u0434\u0438\u043e\u043b\u043e\u0433"
+            "gender": "man",
+            "speciality": "Cardiologist"
         },
         {
-            "name": "\u0418\u0432\u0430\u043d\u043e\u0432\u0430 \u0418.\u0418",
+            "name": "Lisa",
             "year": 1992,
-            "gender": "\u0436\u0435\u043d",
-            "speciality": "\u041c\u0435\u0434\u0441\u0435\u0441\u0442\u0440\u0430"
+            "gender": "woman",
+            "speciality": "Nurse"
         }
     ],
     "patient": [
         {
-            "name": "\u0418\u0440\u0438\u043d\u0430",
+            "name": "Irina",
             "year": 1954,
-            "gender": "\u0436\u0435\u043d",
-            "diagnosis": "\u0412\u043e\u0441\u043f\u0430\u043b\u0435\u043d\u0438\u044f \u043c\u0438\u043e\u043a\u0430\u0440\u0434\u0430"
+            "gender": "man",
+            "diagnosis": "Myocardial inflammation"
         },
         {
-            "name": "\u0421\u0435\u0440\u0433\u0435\u0439",
+            "name": "Alex",
             "year": 1948,
-            "gender": "\u043c\u0443\u0436",
-            "diagnosis": "\u0418\u043d\u0444\u0430\u0440\u043a\u0442"
+            "gender": "woman",
+            "diagnosis": "Heart attack"
         }
     ]
 }
