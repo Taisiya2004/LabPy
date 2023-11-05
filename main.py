@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 class InvalidYearError(Exception):
     pass
 
-"""Cоздание абстрактного класса здравоохранение"""
+"""Cоздание класса здравоохранение"""
 class Healthcare():
     """Свойства класса здравоохранение"""
     def __init__(self, name, year, gender):
